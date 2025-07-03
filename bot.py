@@ -90,7 +90,7 @@ async def search(update: Update, context):
 def main():
     print("Запуск бота...")
     # Замените 'YOUR_BOT_API_TOKEN' на ваш токен от BotFather
-    application = Application.builder().token('7952073336:AAGuGspfYfLHXmEIfYBFS6tJeB_8XbW2xH0').build()
+    application = Application.builder().token('TOKEN').build()
 
     # Добавление обработчиков
     application.add_handler(CommandHandler('start', start))
